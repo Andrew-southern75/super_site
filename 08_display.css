@@ -1,0 +1,27 @@
+/* .inline {
+  display: flex;
+} */
+
+/* или -> */
+
+.inline li {
+  /* display: block; убираем точки если надо */
+  display: inline; /* все элементы переводим в строковые */
+}
+
+.box {
+  width: 32%;
+  border: 1px solid black;
+  background: #f4f4f4;
+  display: inline-block; /* блоки в линию */
+  box-sizing: border-box;
+}
+
+.img {
+  /* размер */
+  width: 200px;
+  /* центровка */
+  display: block;
+  /* отступы */
+  margin: 40px auto;
+}

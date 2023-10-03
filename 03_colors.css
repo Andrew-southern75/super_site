@@ -1,0 +1,19 @@
+.color-1 {
+  color: darkviolet;
+}
+
+.color-2 {
+  color: #993366;
+}
+
+.color-3 {
+  color: #9365;
+}
+
+.color-4 {
+  color: rgb(85, 107, 47);
+}
+
+.color-5 {
+  color: rgba(85, 107, 47, 0.8);
+}

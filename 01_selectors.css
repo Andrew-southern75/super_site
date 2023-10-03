@@ -1,0 +1,46 @@
+/* *обращается ко всем селекторам */
+/* * {}  */
+
+/* Tag name */
+body {
+  background-color: #eee;
+  color: #0f141e;
+  background: #f1f1f1;
+}
+
+/* Class */
+
+.card {
+  padding: 10px;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+.html {
+  background: #e5532d;
+  color: white;
+}
+
+.css {
+  background: #193d91;
+  color: white;
+}
+/* ID */
+#header {
+  background: #ddd;
+  padding: 10px;
+}
+
+#header,
+.html,
+.css {
+  margin-bottom: 10px;
+}
+
+header {
+  border: 1px solid grey;
+}
